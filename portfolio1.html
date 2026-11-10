@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pooja B G | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    color: #172033;
+    line-height: 1.7;
+}
+
+header {
+    background: #10233f;
+    color: white;
+    padding: 18px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav h2 {
+    font-size: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+.hero {
+    background: linear-gradient(135deg, #10233f, #2563a6);
+    color: white;
+    padding: 100px 8%;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin: 15px 0;
+}
+
+.hero h3 {
+    color: #bfdbfe;
+    font-size: 21px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin-top: 15px;
+    color: #e2e8f0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: white;
+    color: #10233f;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #15365e;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #2563eb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #eaf1ff;
+    color: #1e40af;
+    padding: 9px 17px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.card {
+    background: #f8faff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #2563eb;
+}
+
+.card h3 {
+    color: #15365e;
+    margin-bottom: 8px;
+}
+
+a {
+    color: #2563eb;
+}
+
+.contact p {
+    margin: 12px 0;
+}
+
+footer {
+    background: #10233f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    nav a {
+        margin-left: 5px;
+    }
+
+    section {
+        padding: 22px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+    <h2>POOJA B G</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+</header>
+
+<div class="hero">
+    <h3>BCA Graduate | Aspiring Data Analyst</h3>
+    <h1>Hello, I'm Pooja B G</h1>
+
+    <p>
+        A passionate BCA graduate interested in Data Analytics
+        and Information Technology. Currently enhancing my
+        technical skills through Data Analytics training at
+        TAP Academy.
+    </p>
+
+    <a href="#about" class="btn">Explore My Portfolio</a>
+</div>
+
+<div class="container">
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am Pooja B G, a Bachelor of Computer Applications
+        graduate with a CGPA of 8.9. I have foundational
+        knowledge of Python, SQL, Microsoft Excel and HTML.
+
+        I am currently pursuing Data Analytics training at
+        TAP Academy to improve my analytical and technical
+        skills. I am a quick learner with good communication
+        skills and a strong interest in technology.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Vijaya College</p>
+        <p>Bangalore City University</p>
+        <p><strong>CGPA: 8.9</strong></p>
+    </div>
+
+    <div class="card">
+        <h3>Professional Training</h3>
+        <p>TAP Academy</p>
+        <p>Data Analytics Training – Ongoing</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Microsoft Excel</span>
+        <span>HTML</span>
+        <span>Communication</span>
+        <span>Data Analytics</span>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Internship Experience</h2>
+
+    <div class="card">
+        <h3>Roopam Software Solution</h3>
+        <p><strong>Internship Experience</strong></p>
+        <p>
+            Internship experience at Roopam Software Solution.
+            Add the specific technologies, tasks and practical
+            work completed during the internship here.
+        </p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Projects – In Progress</h3>
+        <p>
+            Currently developing practical projects as part
+            of my technical learning and Data Analytics
+            training at TAP Academy.
+        </p>
+    </div>
+</section>
+
+<section id="career">
+    <h2>Career Objective</h2>
+
+    <p>
+        To begin my professional career in Data Analytics
+        or the IT industry, apply my technical knowledge,
+        develop practical experience and contribute to
+        organizational growth while continuously learning.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:poojaganesh9695@gmail.com">
+            poojaganesh9695@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <strong>Phone:</strong>
+        <a href="tel:+919591619069">
+            +91 95916 19069
+        </a>
+    </p>
+
+    <p>
+        <strong>LinkedIn:</strong>
+        To be added
+    </p>
+
+    <p>
+        <strong>GitHub:</strong>
+        Not available yet
+    </p>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Pooja B G | Personal Portfolio</p>
+    <p>Designed for Professional Career Growth</p>
+</footer>
+
+</body>
+</html>
